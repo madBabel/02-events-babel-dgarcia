@@ -3,7 +3,7 @@ on: push
 
 jobs: 
   echo: 
-    Runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: ShowTrigger
       - run: | 
